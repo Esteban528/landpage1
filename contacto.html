@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <title>Pinarsoft web</title>
+    <!--Importe de archivos link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="brand"> <!--Emblema-->
+            <img class="brand-logo" src="images/PinarSoft.png" alt="Brand logo">
+            <p class="brand-title">Pinar<span>Soft</span></p>
+        </a>
+        <nav class="navegacion"> <!--Navegacion-->
+            <a class="nav-elemento" href="index.html">Inicio</a>
+            <a class="nav-elemento" href="contacto.html">Contactanos</a>
+            <a class="nav-elemento" href="nosotros.html">Quienes somos</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+
+        <form action="" id="formulario" class="formulario contenedor">
+            <fieldset class="formulario-fieldset">
+                <legend>Información personal</legend>
+                
+                <label for="nombre">Nombre</label>
+                <input id="nombre" class="validacion-c" type="text" placeholder="Inserta tu nombre">
+
+                <label for="apellido">Apellido</label>
+                <input id="apellido" class="validacion-c" type="text" placeholder="Inserta tu apellido">
+
+                <label for="email">Correo electronico</label>
+                <input id="email" class="validation-email" type="email" placeholder="Inserta tu e-mail">
+
+                <label for="telefono">Celular</label>
+                <input id="telefono" class="validacion-number" type="number" placeholder="Inserta tu telefono">
+            </fieldset>
+
+            <fieldset class="formulario-fieldset">
+                <legend>Información del proyecto</legend>
+                
+                <label for="nombreProyecto">Nombre del proyecto</label>
+                <input id="nombreProyecto" class="validacion-c" type="text" placeholder="Ej: Calculadora cuantica">
+
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" cols="30" rows="10" placeholder="Ej: Una calculadora cuántica es un dispositivo que utiliza principios de la mecánica cuántica para realizar cálculos. ">
+                    
+                </textarea>
+            </fieldset>
+
+            <button class="button sucess" type="submit">Enviar</button>
+            <button class="button warn" type="reset">Limpiar</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+<!--Importando archivos Javascript-->
+<script src="app.js"></script>
+</body>
+</html>

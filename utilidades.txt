@@ -1,0 +1,6 @@
+Colores
+    Oscuro: #061304
+    Primario: #056C1C
+    Gris Claro: #CED2CE
+    Verde pastel: #549F72
+    Gris Oscuro: #7C7C7C
